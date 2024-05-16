@@ -1,0 +1,17 @@
+﻿version: "3"
+services:
+  fake.detection.post.router:
+    image: fake.detection.post.router
+    build:
+      context: .
+      dockerfile: src/Fake.Detection.Post.Router/Dockerfile
+    ports:
+      - "5156:5156"
+      - "7156:7156"
+    restart: always
+    networks:
+      - shared_network
+
+networks:
+  shared_network:
+    external: true

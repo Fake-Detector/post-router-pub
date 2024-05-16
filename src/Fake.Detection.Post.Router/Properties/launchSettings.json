@@ -1,0 +1,12 @@
+﻿{
+  "profiles": {
+    "Fake.Detection.Post.Router": {
+      "commandName": "Project",
+      "dotnetRunMessages": true,
+      "applicationUrl": "https://localhost:7150;http://localhost:5268",
+      "environmentVariables": {
+        "DOTNET_ENVIRONMENT": "Development"
+      }
+    }
+  }
+}
